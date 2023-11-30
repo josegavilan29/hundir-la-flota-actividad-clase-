@@ -1,3 +1,7 @@
+<?php
+require("funciones.php");
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -6,7 +10,7 @@
         <link rel="stylesheet" href="estilos.css">
 
     </head>
-    <body>
+    <body class="inicio">
         
 
             <h1>Hundir la flota</h1>
@@ -15,7 +19,13 @@
 
 
             <form action="CrearPosicionBarcos.php">
-                <input type="submit" value="INICIAR"><br><br>
+                <label for="dificultad">Dificultad:</label><br>
+                <select name="dificultad" id="dificultad" required>
+                    <option value="normal">Normal</option>
+                    <option value="dificil">Difícil</option>
+                    <option value="imposible">Imposible</option>
+                </select><br><br>
+                    <input type="submit" value="INICIAR"><br><br>
             </form>
             
         

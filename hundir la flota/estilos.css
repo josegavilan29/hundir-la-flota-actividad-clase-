@@ -16,11 +16,20 @@
 .tabla {
     background-color: rgb(174, 169, 250);
 }
-body {
+.inicio {
     margin-top: 5%;
     margin-left: 36%;
     margin-right: 36%;
 }
-body form{
-    margin-left: 60%;
+.inicio form{
+    margin-left: 25%;
+}
+
+.tablero {
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.tablero form{
+    margin-left: 20%;
 }

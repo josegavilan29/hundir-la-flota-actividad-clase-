@@ -1,9 +1,4 @@
 <?php
-session_start();
-
-$_SESSION = array();
-session_destroy();
-
-header("Location:CrearPosicionBarcos.php");
-
+require("funciones.php");
+cerrarSesion();
 ?>
